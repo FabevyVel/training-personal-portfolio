@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3eeee;
+}
+#testimonails-1{
+    background-color: #f3eeee;
+}
+.container{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.section-header{
+
+}
+.section-header h1{
+    text-align: center;
+    font-size: 27px;
+    padding: 30px;
+    font-weight: 900;
+}
+.working-wrapper{
+    
+}
+.work-type-1{
+    background-color: #fff;
+    margin: 3px 0px
+}
+.worker-wrapper{
+    display: flex;
+    
+}
+
+.worker-image img{
+    max-width: 69px;
+    margin: 20px;
+}
+.worker-detail{
+    padding-top: 34px;
+}
+.worker-detail h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.worker-detail p{
+    font-size: 13px;
+}
+
+.active-1 p{
+    padding: 20px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.active-1 a{
+    display: block;
+    margin-left: 21px;
+    color: orange;
+    font-size: 13px;
+    text-decoration: none;
+    padding-bottom: 27px;
+}
+
+#testimonails-2{
+    background-color: #f3eeee;
+}
+.dna{
+
+}
+.dna img{
+    display: block;
+    max-width: 40%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.dna p{
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    color: darkslategray;
+    
+}
+.dna a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: darkorange;
+    padding: 10px;
+    font-size: 11px;
+    width: 124px;
+    text-align: center;
+    margin: 15px 83px;
+}
