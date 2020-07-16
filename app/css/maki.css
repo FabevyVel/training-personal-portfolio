@@ -65,16 +65,16 @@ body{
 #testimonails-2{
     background-color: #f3eeee;
 }
-.dna{
+.ux{
 
 }
-.dna img{
+.ux img{
     display: block;
     max-width: 40%;
     margin: auto;
     padding-bottom: 15px;
 }
-.dna p{
+.ux p{
     padding: 8px;
     font-size: 16px;
     text-align: center;
@@ -82,7 +82,7 @@ body{
     color: darkslategray;
     
 }
-.dna a{
+.ux a{
     text-decoration: none;
     display: inline-block;
     color: white;
