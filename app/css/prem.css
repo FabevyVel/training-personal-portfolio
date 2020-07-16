@@ -1,0 +1,102 @@
+body{
+   
+    
+}
+.container{
+    text-align: center;
+    justify-content: space-between;
+
+}
+.case-studies{
+    font-family: sans-serif;
+
+}
+.case-section h2{
+    padding: 15px 0;
+
+}
+.case-section p{
+    font-size: 12px;
+    color: #909ba1;
+
+}
+.case-fellow{
+
+}
+.case-wrapper{
+    
+}
+.design{
+    font-family:sans-serif ;
+
+}
+.design-section{
+
+}
+.design-section h1{
+    font-size: 11px;
+    font-weight: 100;
+    margin: 10px 0;
+    color: #909ba1;
+
+
+}
+.design-section h2{
+    padding-bottom: 20px;
+
+}
+.design-section p{
+    font-size: 13px;
+    color: #909ba1;
+}
+
+
+.primary-section{
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 20px 25px;
+    background-color: orange;
+  
+  
+
+}
+.primary-section a{
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+  
+}
+.primary-sec{
+    margin: 43px 20px 84px 20px;
+  
+}
+.footer{
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: grey;
+    color: #fff;
+
+}
+.footer-logo p{
+    font-size: 12px;
+    padding: 14px 0px 0px 21px;
+ 
+}
+.footer-navi{
+  
+    list-style: none;
+    display: flex;
+    font-size: 17px;
+    margin: 10px 10px 10px 10px;
+}
+
+.footer-navi li{
+    font-size: 14px;
+    padding: 0px 0px 0px 10px;
+}
+ 
+ 
+
+}
+
+
