@@ -1,5 +1,7 @@
 body{
-   
+    background-color: #c6c8c8;
+    background-position: center top;
+    margin: 10px 10px;
     
 }
 .container{
@@ -9,6 +11,7 @@ body{
 }
 .case-studies{
     font-family: sans-serif;
+    background-color: #fff;
 
 }
 .case-section h2{
@@ -28,6 +31,8 @@ body{
 }
 .design{
     font-family:sans-serif ;
+    background-color: #fff;
+
 
 }
 .design-section{
@@ -37,6 +42,7 @@ body{
     font-size: 11px;
     font-weight: 100;
     margin: 10px 0;
+    padding: 10px 10px;
     color: #909ba1;
 
 
@@ -67,20 +73,24 @@ body{
   
 }
 .primary-sec{
-    margin: 43px 20px 84px 20px;
+    margin: 0px 20px 25px 20px;
   
+}
+.image{
+
 }
 .footer{
     display: inline-flex;
     justify-content: space-between;
     background-color: grey;
     color: #fff;
+    margin: 0px 50px;
 
 }
+
 .footer-logo p{
     font-size: 12px;
-    padding: 14px 0px 0px 21px;
- 
+    padding: 10px 0px 0px 27px;
 }
 .footer-navi{
   
@@ -92,11 +102,12 @@ body{
 
 .footer-navi li{
     font-size: 14px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 2px;
+
 }
  
  
 
-}
+
 
 
