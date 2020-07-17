@@ -1,42 +1,27 @@
 body{
-    background-color: #c6c8c8;
-    background-position: center top;
-    margin: 10px 10px;
     
+    font-style: normal;
+    background-position: center top;
+    margin: 10px 10px;    
 }
 .container{
     text-align: center;
     justify-content: space-between;
-
 }
 .case-studies{
     font-family: sans-serif;
     background-color: #fff;
-
 }
 .case-section h2{
     padding: 15px 0;
-
 }
 .case-section p{
     font-size: 12px;
     color: #909ba1;
-
-}
-.case-fellow{
-
-}
-.case-wrapper{
-    
 }
 .design{
     font-family:sans-serif ;
     background-color: #fff;
-
-
-}
-.design-section{
-
 }
 .design-section h1{
     font-size: 11px;
@@ -44,66 +29,91 @@ body{
     margin: 10px 0;
     padding: 10px 10px;
     color: #909ba1;
-
-
 }
 .design-section h2{
     padding-bottom: 20px;
-
 }
 .design-section p{
     font-size: 13px;
     color: #909ba1;
 }
-
-
 .primary-section{
     display: inline-block;
     padding: 12px 30px;
     margin: 20px 25px;
     background-color: orange;
-  
-  
-
+    border-radius: 2px;
 }
 .primary-section a{
     font-size: 13px;
     color: #fff;
     text-decoration: none;
-  
 }
 .primary-sec{
     margin: 0px 20px 25px 20px;
-  
 }
-.image{
-
+.header-sec img{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 55px;
+    max-width: 15%;
+}
+.header-section{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    background-color: rgba(17,17,17,1);
+}
+.header-section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 55px 0;
+    height: auto;
+    max-width: 60%;
 }
 .footer{
-    display: inline-flex;
-    justify-content: space-between;
-    background-color: grey;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    line-height: 60px;
     color: #fff;
-    margin: 0px 50px;
-
+    background-color: rgba(17,17,17,1);
 }
-
-.footer-logo p{
-    font-size: 12px;
-    padding: 10px 0px 0px 27px;
+.footer h1{
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
 }
-.footer-navi{
-  
-    list-style: none;
+.footer p{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.footers{
     display: flex;
-    font-size: 17px;
-    margin: 10px 10px 10px 10px;
+    padding: 30px 10px;
+    justify-content: center;
+    background-color: #222222;
+    color: #fff;
 }
-
-.footer-navi li{
-    font-size: 14px;
-    padding: 0px 2px;
-
+.footers-logo p{
+    font-size: 12px;
+}
+.footers-navi{
+    display: flex;
+    font-size: 10px;
+    padding: 0px 0px 0px 3px;
+}
+.footers-navi li{
+    padding: 0px 4px 0px 4px;
 }
  
  
