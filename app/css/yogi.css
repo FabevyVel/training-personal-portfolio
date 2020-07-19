@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 #clients{
-=======
-clients{
->>>>>>> f12cc3eacf7d221ae4fc7bfbfc88383ef950db40
     height: 320px;
     background-color: #ececec;
 }
@@ -19,18 +16,15 @@ clients{
     max-width: 130px;
 }
 #about{
-<<<<<<< HEAD
     height: 1032px;
     background-color: white;
 }
-=======
     height: 1338px;
     background-color: white;
 }
 #about .big-header{
     
 }
->>>>>>> f12cc3eacf7d221ae4fc7bfbfc88383ef950db40
 .big-header h1{
     font-size: 30px;
     padding-top: 53px;
@@ -61,7 +55,6 @@ footer{
 .footer-body{
 
 }
-<<<<<<< HEAD
 .footer-align{
     text-align: center;
 }
@@ -71,12 +64,11 @@ footer{
 }
 .footer-align{
     text-align: center;
-=======
+}
 .footer-body img{
     max-width: 200px;
     margin-left: 43px;
     margin-top: 51px;
->>>>>>> f12cc3eacf7d221ae4fc7bfbfc88383ef950db40
 }
 .footer-body h2{
     color: white;
@@ -88,7 +80,6 @@ footer{
     text-align: center;
     margin-top: 32px;
     font-size: 32px;
-<<<<<<< HEAD
 }
 @media (min-width: 576px) and (max-width: 767px){
     #clients{
@@ -216,6 +207,4 @@ footer{
     .footer-body h1 {
         margin-top: 32px;
     }
-=======
->>>>>>> f12cc3eacf7d221ae4fc7bfbfc88383ef950db40
 }
