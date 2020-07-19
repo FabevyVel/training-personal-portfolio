@@ -41,7 +41,7 @@ body{
     display: inline-block;
     padding: 12px 30px;
     margin: 20px 25px;
-    background-color: orange;
+    background-color: #f36702;
     border-radius: 2px;
 }
 .primary-section a{
@@ -51,6 +51,10 @@ body{
 }
 .primary-sec{
     margin: 0px 20px 25px 20px;
+}
+.primary-sec p{
+    font-size: 12px;
+    font-weight: 100;
 }
 .header-sec img{
     display: block;
@@ -73,29 +77,31 @@ body{
     margin-right: auto;
     padding: 55px 0;
     height: auto;
-    max-width: 60%;
+    max-width: 55%;
 }
 .footer{
     justify-content: center;
     text-align: center;
     display: block;
-    line-height: 60px;
+    line-height: 19px;
     color: #fff;
     background-color: rgba(17,17,17,1);
 }
 .footer h1{
-    font-size: 13px;
+    font-size: 10px;
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
+    font-family: monospace;
 }
 .footer p{
-    font-size: 40px;
+    font-size: 22px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 600;
     padding-bottom: 50px;
+    font-family: serif;
 }
 .footers{
     display: flex;
@@ -103,6 +109,38 @@ body{
     justify-content: center;
     background-color: #222222;
     color: #fff;
+}
+.indicater{ 
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: -50px -684px 0 20px;
+    transform: rotate(45deg);
+    background-color: #222222;
+    padding: 31px 37px 18px 10px;
+    border-radius: 12px;
+}
+.top-1 span:nth-child(1){
+    top: 19px;
+    left: 5px;
+
+} 
+.top-2 span:nth-child(2){
+
+}
+.indicater span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 25px 15px;
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    border-left: 2px solid #fff;
+    border-top:  2px solid #fff;
+   
 }
 .footers-logo p{
     font-size: 12px;
