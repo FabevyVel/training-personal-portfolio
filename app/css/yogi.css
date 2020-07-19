@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#clients{
+=======
 clients{
+>>>>>>> f12cc3eacf7d221ae4fc7bfbfc88383ef950db40
     height: 320px;
     background-color: #ececec;
 }
@@ -15,12 +19,18 @@ clients{
     max-width: 130px;
 }
 #about{
+<<<<<<< HEAD
+    height: 1032px;
+    background-color: white;
+}
+=======
     height: 1338px;
     background-color: white;
 }
 #about .big-header{
     
 }
+>>>>>>> f12cc3eacf7d221ae4fc7bfbfc88383ef950db40
 .big-header h1{
     font-size: 30px;
     padding-top: 53px;
@@ -51,10 +61,22 @@ footer{
 .footer-body{
 
 }
+<<<<<<< HEAD
+.footer-align{
+    text-align: center;
+}
+.footer-body img{
+    max-width: 200px;
+    padding-top: 51px;
+}
+.footer-align{
+    text-align: center;
+=======
 .footer-body img{
     max-width: 200px;
     margin-left: 43px;
     margin-top: 51px;
+>>>>>>> f12cc3eacf7d221ae4fc7bfbfc88383ef950db40
 }
 .footer-body h2{
     color: white;
@@ -66,4 +88,134 @@ footer{
     text-align: center;
     margin-top: 32px;
     font-size: 32px;
+<<<<<<< HEAD
+}
+@media (min-width: 576px) and (max-width: 767px){
+    #clients{
+        height: 469px;
+    }    
+    .client img{
+        max-width: 245px;
+    }  
+    #about{
+        height: 1032px;
+    }
+    .big-header h1{
+        font-size: 30px;
+        padding-top: 53px;
+        text-align: center;
+    }
+    .about-body{
+        text-align: center;
+        margin-top: 45px;
+    }
+    .about-body img{
+        max-width: 60px;
+        margin-bottom: 12px;
+    }
+    .about-body h2{
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+    .about-body p{
+        font-size: 19px;
+        line-height: 29px;
+    }
+    footer{
+        height: 225px;
+    }
+    .footer-body img{
+        max-width: 347px;
+        padding-top: 51px;
+    }
+    .footer-body h2{
+        margin-top: 47px;
+        text-align: center;
+    }
+    .footer-body h1{
+        text-align: center;
+        margin-top: 32px;
+        font-size: 32px;
+    }  
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #clients{
+        height: 557px;
+        background-color: #ececec;
+    }
+    .client img{
+        max-width: 330px;
+    }
+    #about{
+        height: 1032px;
+    }
+    .about-body p{
+        font-size: 21px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    #clients {
+        height: 134px;
+    }
+    .client img {
+        max-width: 159px;
+    }
+    .big-header h1 {
+        font-size: 40px;
+    }
+    .about-body img {
+        max-width: 65px;
+    }
+    .about-body h2 {
+        font-size: 25px;
+    }
+    .about-body p {
+        font-size: 22px;
+        line-height: 37px;
+    }
+    footer {
+        height: 431px;
+    }
+    .footer-body img {
+        max-width: 677px;
+    }
+    .footer-body h2 {
+        margin-top: 94px;
+        font-size: 19px;
+    }
+    .footer-body h1{
+        font-size: 40px;
+    }
+}
+@media (min-width: 1200px){
+    #clients {
+        height: 150px;
+    }
+    .client img {
+        max-width: 180px;
+    }
+    .big-header h1 {
+        font-size: 40px;
+    }
+    .about-body h2 {
+        font-size: 21px;
+    }
+    .about-body p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    footer{
+        height: 402px;
+    }
+    .footer-body img {
+        max-width: 720px;
+    }
+    .footer-body h2 {
+        margin-top: 80px;
+    }
+    .footer-body h1 {
+        margin-top: 32px;
+    }
+=======
+>>>>>>> f12cc3eacf7d221ae4fc7bfbfc88383ef950db40
 }
