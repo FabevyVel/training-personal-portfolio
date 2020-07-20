@@ -25,10 +25,11 @@ body{
     padding-bottom: 8px;
 }
 .case-wrapper img{
-    max-width: 300px;
+    max-width: 377px;
     display: inline-flex;
     justify-items: center;
     text-align: center;
+    margin: 14px 0px -3px -6px;
   
   
 
@@ -43,7 +44,7 @@ body{
 .card-4,
 .card-5,
 .card-6{
-    padding: 5px 10px;
+    padding: 0px 10px;
  
 }
 .design{
