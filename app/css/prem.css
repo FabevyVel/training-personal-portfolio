@@ -14,10 +14,38 @@ body{
 }
 .case-section h2{
     padding: 15px 0;
+    font-size: 30px;
 }
 .case-section p{
-    font-size: 12px;
-    color: #909ba1;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #020303;
+    padding-bottom: 8px;
+}
+.case-wrapper img{
+    max-width: 377px;
+    display: inline-flex;
+    justify-items: center;
+    text-align: center;
+    margin: 14px 0px -3px -6px;
+  
+  
+
+}
+.case-fellow{
+
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6{
+    padding: 0px 10px;
+ 
 }
 .design{
     font-family:sans-serif ;
@@ -105,7 +133,7 @@ body{
 }
 .footers{
     display: flex;
-    padding: 30px 10px;
+    padding: 43px 10px;
     justify-content: center;
     background-color: #222222;
     color: #fff;
@@ -114,7 +142,7 @@ body{
     position: absolute;
     width: 20px;
     height: 20px;
-    margin: -50px -684px 0 20px;
+    margin: -54px 9px 0 16px;
     transform: rotate(45deg);
     background-color: #222222;
     padding: 31px 37px 18px 10px;
@@ -153,6 +181,8 @@ body{
 .footers-navi li{
     padding: 0px 4px 0px 4px;
 }
+
+
  
  
 

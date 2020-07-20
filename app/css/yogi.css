@@ -1,25 +1,23 @@
-
 #clients{
-    height: 320px;
     background-color: #ececec;
+    padding: 20px 0;
 }
 .clients-wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
 }
 .client{
-    padding-top: 24px;
+    padding: 12px 0;
+    flex-basis: 50%;
+    text-align: center;
 }
 .client img{
-    max-width: 130px;
+    max-width: 145px;
 }
 #about{
     height: 1032px;
-    background-color: white;
-}
-    height: 1338px;
     background-color: white;
 }
 #about .big-header{
@@ -29,10 +27,16 @@
     font-size: 30px;
     padding-top: 53px;
     text-align: center;
+    line-height: 38px;  
 }
 .about-body{
     text-align: center;
     margin-top: 45px;
+}
+.about-body-bottom{
+    text-align: center;
+    margin-top: 45px;
+    padding-bottom: 86px; 
 }
 .about-body img{
     max-width: 60px;
@@ -48,27 +52,33 @@
     font-weight: -39px;
     color: #7d7474;
 }
+.about-body-bottom img{
+    max-width: 60px;
+    margin-bottom: 12px;
+}
+.about-body-bottom h2{
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+.about-body-bottom p{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: -39px;
+    color: #7d7474;
+}
 footer{
     background-color: black;
-    height: 225px;
 }
 .footer-body{
 
 }
-.footer-align{
-    text-align: center;
-}
 .footer-body img{
     max-width: 200px;
     padding-top: 51px;
+    padding-bottom: 36px;
 }
 .footer-align{
     text-align: center;
-}
-.footer-body img{
-    max-width: 200px;
-    margin-left: 43px;
-    margin-top: 51px;
 }
 .footer-body h2{
     color: white;
@@ -80,16 +90,16 @@ footer{
     text-align: center;
     margin-top: 32px;
     font-size: 32px;
+    padding-bottom: 40px;
 }
 @media (min-width: 576px) and (max-width: 767px){
     #clients{
-        height: 469px;
     }    
     .client img{
-        max-width: 245px;
+        max-width: 215px;
     }  
     #about{
-        height: 1032px;
+    
     }
     .big-header h1{
         font-size: 30px;
@@ -131,11 +141,10 @@ footer{
 }
 @media (min-width: 768px) and (max-width: 991px){
     #clients{
-        height: 557px;
         background-color: #ececec;
     }
     .client img{
-        max-width: 330px;
+        max-width: 260px;
     }
     #about{
         height: 1032px;
@@ -146,7 +155,10 @@ footer{
 }
 @media (min-width: 992px) and (max-width: 1199px){
     #clients {
-        height: 134px;
+
+    }
+    .client{
+        flex-basis: 0%;
     }
     .client img {
         max-width: 159px;
@@ -180,7 +192,9 @@ footer{
 }
 @media (min-width: 1200px){
     #clients {
-        height: 150px;
+    }
+    .client{
+        flex-basis: unset;
     }
     .client img {
         max-width: 180px;
