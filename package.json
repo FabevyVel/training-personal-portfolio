@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Add Colloborators\r 2. Share Task List in package format\r 3. Share session Video\r 4. https://www.martinfletcherdesign.co.uk/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

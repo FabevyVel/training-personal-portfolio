@@ -1,59 +1,76 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
 #hero{
     background-image: url('../images/hero-bg.jpg');
     background-size: cover;
-}
-.hero-wrapper{
+    width: 100%;
 }
 .hero-text{
     color: #fff;
     font-weight: 300;
+    padding-top: 24px;
+    font-family: 'Lato', sans-serif;
 }
 .hero-text h1{
-    color: #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 1.3;
-    font-size: 38px;
-    font-family: sans-serif;
+    font-size: 42px;
     text-align: center;
-    padding: 54px 10px;
+    padding: 54px 0px 10px 0px;
 }
 .hero-text h3{
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
-    font-size: 15px;
-    margin-top: -40px;
+    font-size: 17px;
     text-transform: uppercase;
-    font-family: sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
+    line-height: 1.2;
 }
+
 .hero-text p{
-    margin-top: 15px;
     text-align: center;
     font-size: 15px;
     line-height: 1.7;
+    padding-top: 13px;
+    padding-bottom: 25px;
+    padding-bottom: 20px;
+}
+#hero .c2a-wrapper{
+    text-align: center;
+}
+.c2a-wrapper .primary-button {
+    color: white;
+    display: inline-block;
+    background-color: #2196F3;
+    text-decoration: none;
+    padding: 14px 22px;
+    font-size: 15px;
+    border-radius: 2px;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
 .hero-image img{
     height: auto;
     vertical-align: middle;
     text-align: center;
     max-width: 100%;
-    margin-top: 84px;
-}
-#hero .c2a-wrapper{
-    margin-top: 20px;
-    text-align: center;
+    padding-top: 40px;
 }
 #specialism{
    background-color: rgba(238,238,238,1);
    background-size: cover;
+   height: 3480px;
 }
 #specialism .section-title{
     padding: 48px 0px;
 }
 .section-title h2{
-    font-size: 27px;
+    font-size: 31px;
     text-align: center;
+    padding-top: 22px;
+    color: #333333;
 }
 .specialism-info-graphics{
     margin-bottom: 10px;
@@ -65,68 +82,344 @@
 }
 .specialism-para p{
     text-align: center;
-    color: #8c8a8a;
-    font-size: 16px;
-    margin-bottom: 50px;
+    color: #797878;
+    font-size: 17.5px;
+    margin-bottom: 58px;
+    line-height: 1.7;
+    word-break: break-word;
 }
 .specialism-content-wrapper{
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -14px;
+    margin-left: -13px;
 }
 .specialism-content{
     width: 92%;
     min-height: 1px;
     margin-left: 15px;
     background: #FFFFFF;
-    padding: 30px;
+    padding: 37px 18px 27px 18px;
     margin-bottom: 30px;
     box-shadow: #e5e5e5 1px 1px 4px;
 }
 .specialism-inner{
     flex-wrap: wrap;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    margin-right: 0px;
     text-align: center;
+    margin-bottom: 34px;;
 }
 .specialism-icon img{
-    max-width: 100px;
+    max-width: 114px;
     height: auto;
 }
 .specialism-text{
-    margin-top: 20px;
+    margin-top: 24px;
 }
 .specialism-text h4{
     font-size: 15px;
 }
 .specialism-text p{
-    margin-top: 19px;
-    font-size: 13px;
+    margin-top: 15px;
     line-height: 1.7;
     margin-bottom: -43px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #777777;
 }
- 
+
 @media (min-width: 576px){
+    #hero{
+        height: 1091px;
+    }
+    .hero-text h3 {
+        font-weight: 600;
+        font-size: 19px;
+        letter-spacing: 1px;
+        line-height: 1.1;
+    }
+    .hero-text p {
+        margin-top: 0px;
+        font-size: 15px;
+        line-height: 1.7;
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+    .c2a-wrapper .primary-button {
+        padding: 12px 24px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    #specialism {
+        height: 2319px;
+    }
+    .specialism-para p {
+        margin-bottom: 20px;
+    }
     .specialism-content-wrapper{
         display: flex;
         justify-content: space-between;
+        margin-right: 19px;
     }
     .specialism-content{
         width: auto;
         flex-basis: 49%;
-        margin: 0 0 17px;
+        margin: 33px -24px 0px 7px;
+        padding: 20px 0px;
+    }
+    .specialism-inner {
+        margin: 0px 24px 0px 22px;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-bottom: 43px;
+    }
+    .specialism-content.content-4{
+        margin-bottom: 35px;
+    }
+    .specialism-content.content-8{
+        margin-bottom: 24px;
+        padding-right: 7px;
+    }
+}
+
+@media (min-width: 768px){
+    #hero {
+        height: 1030px;
+    }   
+    .hero-text h1 {
+        font-size: 49px;
+        padding: 64px 0px 11px;
+    }
+    .hero-text h3 {
+        letter-spacing: 2px;
+        margin: 0px;
+    }
+    .hero-text p {
+        font-size: 16.5px;
+        padding: 13px 0px 0px;
+    }
+    #hero .c2a-wrapper {
+        text-align: center;
+        padding-top: 28px;
+        margin: 0px;
+    }
+    .c2a-wrapper .primary-button{
+        padding: 14px 26px;
+    }
+    .hero-image img {
+        padding-top: 75px;
+        margin-top: 0px;
+    }
+    #specialism {
+        height: 2532px;
+    }
+    .specialism-para p {
+        padding-top: 9px;
+        margin-bottom: 0px;
+        padding-bottom: 25px;
+        font-size: 18.6px;
+    }
+    .specialism-content{
+        margin: 33px -22px 0px 10px;
+        padding: 20px 0px 0px 0px;
+    }
+    .specialism-inner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 2px -21px 0px;
+    }
+    .specialism-icon{
+        text-align: center;
+        flex-basis: 50%;
+    }
+    .specialism-icon img{
+        max-width: 114px;
+        height: auto;
+    }
+    .specialism-text{
+        flex-basis: 50%;
+        margin-top: 12px;
+        text-align: left;
+        padding: 0px 0px 28px 0px;
+    }
+    .specialism-text h4 {
+        font-size: 17px;
+    }
+    .specialism-text p {
+        margin-top: 16px;
+        line-height: 1.6;
+        margin-bottom: -23px;
+        font-size: 15px;
+        padding-right: 35px;
+    }
+    .specialism-content.content-1{
+        margin-bottom: 39px;
+    }
+    .specialism-content.content-4{
+        margin-bottom: 61px;
+    }
+    .specialism-content.content-8{
+        margin-bottom: 90px;
+        padding-right: 7px;
+    }
+}
+
+@media (min-width: 992px){
+    #hero {
+        height: 767px;
+    }
+    .hero-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-text{
+        flex-basis: 50%;
+    }
+    .hero-text h1{
+        font-size: 50px;
+        padding: 60px 0px;
+        margin-top: 21px;
+        font-weight: 900;
+    }
+    .hero-text h3{
+        font-size: 19px;
+        margin-top: -45px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 1.2;
+    }
+    .hero-text p{
+        margin-top: 17px;
+        font-size: 18px;
+        line-height: 1.7;
+        padding-bottom: 6px;
+    }
+    .hero-image img{
+        flex-basis: 50%;
+        margin-top: -8px;
+        max-width: 96%;
+        margin-left: 37px;
+    }
+    .c2a-wrapper .primary-button{
+        padding: 16px 30px;
+    }
+    #specialism {
+        height: 1966px;
+    }
+    .specialism-para p {
+        font-size: 20px;
+    }
+    .specialism-content {
+        margin: 33px -22px 0px 10px;
+        padding: 20px 0px 0px 0px;
+    }
+    .specialism-inner{
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: -39px;
+    }
+    .specialism-icon {
+        text-align: center;
+        flex-basis: 40%;
+    }
+    .specialism-text{
+        flex-basis: 60%;
+        text-align: left;
+        margin: 0px 0px;
+    }
+    .specialism-icon img{
+        max-width: 114px;
+        height: auto;
+    }
+    .specialism-text h4{
+        font-size: 15px;
+    }
+    .specialism-text p{
+        padding-right: 20px;
+        margin-bottom: -9px;
+    }
+    .specialism-content.content-1{
+        margin-bottom: 0px;
+    }
+    .specialism-content.content-4{
+        margin-bottom: 0px;
+    }
+    .specialism-content.content-8{
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 1200px){
+    .hero-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-text{
+        flex-basis: 50%;
+    }
+    .hero-text h1{
+        text-align: left;
+    }
+    .hero-text h3{
+        font-size: 20px;
+        text-align: left;
+    }
+    .hero-text p{
+        text-align: left;
+    }
+    .hero-image img{
+        max-width: 96%;
+        padding-right: 86px;
+        padding-top: 40px;
+    }
+    #hero .c2a-wrapper{
+        text-align: left;
+    }
+    #specialism {
+        height: 1815px;
+    }
+    .section-title h2 {
+        font-size: 41px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .specialism-info-graphics{
+        text-align: center;
+    }
+    .specialism-info-graphics img {
+        height: auto;
+        max-width: 82%;
+    }
+    .specialism-para{
+        margin-bottom: -18px;
+        padding-top: 8px;
+    }
+    .specialism-icon {
+        text-align: center;
+        flex-basis: 32%;
+    }
+    .specialism-text{
+        flex-basis: 68%;
+        text-align: left;
+        margin: 0px 0px;
+    }
+    .specialism-inner {
+        margin-bottom: -35px;
+    }
+    .specialism-text h4 {
+        font-size: 17px;
+    }
+    .specialism-content.content-8 {
+        margin-bottom: 24px;
     }
 }
 
 
-@media (min-width: 768px){
 
-}
 
-@media (min-width: 992px){
 
-}
-@media (min-width: 1200px){
 
-}
+
+
+
+
