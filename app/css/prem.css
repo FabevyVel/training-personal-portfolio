@@ -17,8 +17,12 @@ body{
     font-size: 30px;
 }
 .case-section p{
-    font-size: 12px;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 14px;
     color: #020303;
+    padding-bottom: 8px;
 }
 .case-wrapper img{
     max-width: 300px;
