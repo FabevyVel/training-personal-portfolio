@@ -15,10 +15,11 @@
 
 .work-type-1{
     background-color: #fff;
-    margin: 3px 0px
+    
 }
 .worker-wrapper{
     display: flex;
+    margin: 3px;
 }
 .worker-image img{
     max-width: 69px;
@@ -55,6 +56,10 @@
     font-size: 13px;
     text-decoration: none;
     padding-bottom: 27px;
+}
+.active-1 a:hover{
+    color: #777777;
+    text-decoration-line: underline;
 }
 
 #testimonails-2{
@@ -243,7 +248,7 @@
         font-size: 14px;
     }
     .active-1 a{
-        font-size: 15px;
+        font-size: 14px;
     }
     .testimonails-header h1{
         letter-spacing: 2px;
