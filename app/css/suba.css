@@ -5,6 +5,7 @@ body{
     background-image: url('../images/hero-bg.jpg');
     background-size: cover;
     width: 100%;
+    background-position: center;
 }
 .hero-text{
     color: #fff;
@@ -34,14 +35,21 @@ body{
     font-size: 15px;
     line-height: 1.7;
     padding-top: 13px;
-    padding-bottom: 25px;
     padding-bottom: 20px;
+}
+.hero-text p a{
+    color: #dddddd;
+    text-decoration: none;
+}
+.hero-text p a:hover {
+    color: #777777;
+    text-decoration: underline;
 }
 #hero .c2a-wrapper{
     text-align: center;
 }
 .c2a-wrapper .primary-button {
-    color: white;
+    color: #fff;
     display: inline-block;
     background-color: #2196F3;
     text-decoration: none;
@@ -50,6 +58,11 @@ body{
     border-radius: 2px;
     font-weight: 900;
     margin-bottom: 10px;
+}
+.c2a-wrapper .primary-button:hover {
+    color: #fff;
+    background-color: #025aa5;
+    border-color: #01549b;
 }
 .hero-image img{
     height: auto;
@@ -101,6 +114,9 @@ body{
     padding: 37px 18px 27px 18px;
     margin-bottom: 30px;
     box-shadow: #e5e5e5 1px 1px 4px;
+}
+.specialism-content:hover {
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.09);
 }
 .specialism-inner{
     flex-wrap: wrap;
@@ -350,6 +366,9 @@ body{
 }
 
 @media (min-width: 1200px){
+    #hero {
+        height: 734px;
+    }
     .hero-wrapper{
         display: flex;
         justify-content: space-between;
@@ -366,6 +385,7 @@ body{
     }
     .hero-text p{
         text-align: left;
+        margin-top: 0px;
     }
     .hero-image img{
         max-width: 96%;
@@ -374,6 +394,10 @@ body{
     }
     #hero .c2a-wrapper{
         text-align: left;
+    }
+    .c2a-wrapper .primary-button {
+        padding: 16px 30px;
+        margin-top: 0px;
     }
     #specialism {
         height: 1815px;
@@ -393,6 +417,7 @@ body{
     .specialism-para{
         margin-bottom: -18px;
         padding-top: 8px;
+        padding-bottom: 20px;
     }
     .specialism-icon {
         text-align: center;
